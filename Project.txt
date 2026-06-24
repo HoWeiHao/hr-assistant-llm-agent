@@ -1,0 +1,80 @@
+Project idea
+Title: AI-Driven Singapore Financial Compliance Assistant
+
+What it demonstrates
+
+production-grade prompt engineering
+tool-enabled LLM workflows
+retrieval-augmented grounding
+evaluation + observability
+SDLC-aware design and documentation
+Project story
+
+Build a real AI assistant that answers regulatory and policy questions for Singapore financial services, using internal-style compliance documents and a secure tool-enabled pipeline. Then show how you benchmarked it, controlled risks, and packaged it as an end-to-end deliverable—so it proves mastery, not just course completion.
+
+Why this shows more than “learn and forget”
+Show that you:
+
+converted course concepts into a usable product
+applied them to a realistic domain with clear business value
+added evaluation and monitoring instead of “just running notebooks”
+documented architecture, decisions, and tradeoffs
+reproduced and versioned the work in a clean project repo
+Core project components
+Prompt engineering
+
+compare naive prompt vs structured pipeline
+build reusable ChatPromptTemplate patterns
+show improved reliability and constraints handling
+Tool-enabled LLM
+
+implement a policy lookup tool
+add a risk scoring / compliance-check tool
+use bind_tools() and manual tool execution
+RAG knowledge base
+
+ingest MAS/PDPA/internal policy docs
+use embeddings + ChromaDB + retriever
+answer anchored questions with source citations
+Evaluation & observability
+
+evaluate answers with exact match / modern metrics
+optionally integrate LangSmith tracing
+compare responses with and without RAG, and with naive vs structured prompts
+AI-augmented SDLC
+
+use the assistant to generate:
+user stories
+acceptance criteria
+secure API code
+test cases
+documentation
+document the workflow and governance
+Recommended GitHub project structure
+What to include in README.md
+project goal and value proposition
+what you built and why it matters
+technology stack
+how this extends the course
+key results and learnings
+how to run it
+screenshots or sample outputs
+How to frame it on LinkedIn
+Use a short narrative like:
+
+“I took the LLMP course further by building an end-to-end regulatory compliance assistant for Singapore financial services.”
+“I didn’t just run the modules: I turned prompt engineering, tool-calling, RAG, evaluation, and SDLC patterns into a real project with business value.”
+“I compared naive vs production prompts, added grounded RAG answers, and built evaluation/traceability so the system is demonstrably safer and more reliable.”
+Extra differentiators
+Add one or more of these to stand out:
+
+a small Flask/FastAPI demo app
+a clear before/after comparison table
+citations from source docs in answers
+a “risk/gap analysis” section
+a reproducible setup.sh or Makefile
+a final project summary note on “lessons learned”
+If you want, I can also turn this into a full GitHub repo scaffold with actual file contents and a sample README.md.
+
+DIfficulty:
+- LLM keeps thinking it has the correct date but cites2024 which is wron
